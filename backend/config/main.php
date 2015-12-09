@@ -13,9 +13,21 @@ return [
     'bootstrap' => ['log'],
     'modules' => [],
     'components' => [
+        'request' => [
+            'csrfParam' => '_backendCSRF',
+            'csrfCookie' => [
+                'httpOnly' => true,
+                'path' => '/administrator',
+            ],
+        ],
         'user' => [
             'identityClass' => 'common\models\User',
             'enableAutoLogin' => true,
+            'identityCookie' => [
+                'name' => '_backendIdentity',
+                'path' => '/administrator',
+                'httpOnly' => true,
+            ],
         ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
@@ -29,14 +41,18 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-        /*
+        'session' => [
+            'name' => 'BACKENDSESSID',
+            'cookieParams' => [
+                'path' => '/administrator',
+            ],
+        ],
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
             ],
         ],
-        */
     ],
     'params' => $params,
 ];

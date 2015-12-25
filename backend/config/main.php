@@ -45,6 +45,7 @@ return [
             'name' => 'BACKENDSESSID',
             'cookieParams' => [
                 'path' => '/administrator',
+                'httpOnly' => true,
             ],
         ],
         'urlManager' => [

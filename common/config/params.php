@@ -1,5 +1,9 @@
 <?php
 return [
+    // Компания - разработчик сайта.
+    'developerCompanyName' => 'KAMOD',
+    'developerCompanySiteTitle' => 'KAMOD.PRO',
+    'developerCompanySiteUrl' => 'http://kamod.pro',
     // STUB поменять перед релизом адрес почтового робота.
     'robotEmail' => 'robot@myhost.ru',
     'user.passwordResetTokenExpire' => 3600,

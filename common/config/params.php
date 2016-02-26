@@ -13,7 +13,4 @@ return [
     'lib' => '/media_library/',
     'site_title' => 'My Cool Site',
     'site_title_for_tab' => 'My Cool Site',
-    'aliases' => [
-            '@main_root' => realpath(dirname(__FILE__) . '/../../'),
-        ],
 ];

@@ -16,4 +16,7 @@ return [
             'thousandSeparator' => ' ',
         ],
     ],
+    'aliases' => [
+        '@main_root' => realpath(dirname(__FILE__) . '/../../'),
+    ],
 ];

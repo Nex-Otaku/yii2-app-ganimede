@@ -17,7 +17,7 @@ return [
             'csrfParam' => '_backendCSRF',
             'csrfCookie' => [
                 'httpOnly' => true,
-                'path' => '/administrator',
+                'path' => '/admin',
             ],
         ],
         'user' => [
@@ -25,7 +25,7 @@ return [
             'enableAutoLogin' => true,
             'identityCookie' => [
                 'name' => '_backendIdentity',
-                'path' => '/administrator',
+                'path' => '/admin',
                 'httpOnly' => true,
             ],
         ],
@@ -44,7 +44,7 @@ return [
         'session' => [
             'name' => 'BACKENDSESSID',
             'cookieParams' => [
-                'path' => '/administrator',
+                'path' => '/admin',
                 'httpOnly' => true,
             ],
         ],

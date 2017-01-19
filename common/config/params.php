@@ -1,9 +1,9 @@
 <?php
 return [
     // Компания - разработчик сайта.
-    'developerCompanyName' => 'KAMOD',
-    'developerCompanySiteTitle' => 'KAMOD.PRO',
-    'developerCompanySiteUrl' => 'http://kamod.pro',
+    'developerCompanyName' => 'Nex Otaku',
+    'developerCompanySiteTitle' => 'Butterfly Lantern',
+    'developerCompanySiteUrl' => 'http://butterfly-lantern.ru',
     // STUB поменять перед релизом адрес почтового робота.
     'robotEmail' => 'robot@myhost.ru',
     'user.passwordResetTokenExpire' => 3600,
@@ -13,4 +13,5 @@ return [
     'lib' => '/media_library/',
     'site_title' => 'My Cool Site',
     'site_title_for_tab' => 'My Cool Site',
+    'site_title_mini' => 'CS',
 ];

@@ -18,7 +18,9 @@
         "yiisoft/yii2": ">=2.0.6",
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-swiftmailer": "*",
-        "dmstr/yii2-adminlte-asset": "^2.3"
+        "dmstr/yii2-adminlte-asset": "^2.3",
+        "nex-otaku/yii2-uuid-user": "dev-master",
+        "nex-otaku/yii2-uuid-admin": "dev-master"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",
